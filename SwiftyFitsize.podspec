@@ -11,6 +11,8 @@ Pod::Spec.new do |s|
   
   s.swift_version = '5.0'
   s.ios.deployment_target = '13.0'
+  
+  s.dependency 'DeviceKit'
 
   s.source_files = 'Sources/*.{h,swift}'
   s.public_header_files = 'Sources/*.h'
